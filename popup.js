@@ -19,7 +19,7 @@ const closePopup = event => {
 	}
 
 	if (clickedElementIsASocialNatworkButton) {
-		const socialNetworLink = 'https://www.telegram.com/gerafimjoaquim'
+		const socialNetworLink = 'https://t.me/gerafimjoaquim'
 
 		setAttribute(clickedElement, 'target', '_blank')
 		setAttribute(clickedElement, 'href', socialNetworLink)
